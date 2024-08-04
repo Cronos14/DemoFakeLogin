@@ -1,6 +1,6 @@
 # Demo FakeLogin
 
-https://github.com/user-attachments/assets/69f487ca-f37b-4094-a79f-2b0da60dd0d8
+https://github.com/user-attachments/assets/4fac0d9e-d736-441c-b3a2-d859fb605415
 
 # Architecture
 
@@ -17,4 +17,4 @@ https://github.com/user-attachments/assets/69f487ca-f37b-4094-a79f-2b0da60dd0d8
 
 ### MVVM + Clean Architecture
 
-![clean architecture-FakeLogin drawio](https://github.com/user-attachments/assets/5a19451f-04ee-4136-9776-722ad6448797)
+![clean architecture-FakeLogin drawio](https://github.com/user-attachments/assets/2a57bf5d-9920-4b6e-ab85-8e514e90207c)
