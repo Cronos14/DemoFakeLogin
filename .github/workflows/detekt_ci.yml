@@ -1,0 +1,30 @@
+name: Detekt
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: gradle
+      - name: Grant execute permissions for gradlew
+        run: chmod +x gradlew
+      - name: Build and run Detekt
+        run: ./gradlew detekt
+      - name: Archive Detekt report
+        if: always()
+        uses: actions/upload-artifact@v2
+        with:
+          name: detekt-report
+          path: build/reports/detekt/

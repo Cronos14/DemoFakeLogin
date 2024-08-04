@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FakeLogin</string>
+    <string name="dialog_title">Welcome</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_dismiss">Dismiss</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login">Login</string>
+    <string name="user_or_password_incorrect">User or password incorrect</string>
+    <string name="user_not_found">User not found</string>
+    <string name="use_empty">Use Empty</string>
+    <string name="password_empty">Password Empty</string>
+    <string name="something_is_wrong">Something is wrong</string>
+</resources>
