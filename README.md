@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/69f487ca-f37b-4094-a79f-2b0da60dd0d8
 * [Mockito](https://site.mockito.org/)
 * [UIComposeTesting](https://developer.android.com/develop/ui/compose/testing?hl=es-419)
 * [Detekt](https://github.com/detekt/detekt)
-* [CI](https://github.com/Cronos14/FakeLogin/actions)
+* [CI](https://github.com/Cronos14/DemoFakeLogin/actions)
 
 ### MVVM + Clean Architecture
 
